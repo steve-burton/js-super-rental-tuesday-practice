@@ -5,7 +5,6 @@ export default Ember.Component.extend({
   actions: {
     imageShow() {
       this.set('isImageShowing', true);
-      console.log(this);
     },
     imageHide() {
       this.set('isImageShowing', false);

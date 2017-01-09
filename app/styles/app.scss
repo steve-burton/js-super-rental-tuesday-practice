@@ -1,0 +1,9 @@
+$BG1: #5CCCB0;
+$BG2: #91C9BB;
+
+body {
+  background:
+    repeating-linear-gradient(to top left, $BG1, $BG2, $BG1, $BG2, $BG1, $BG2);
+  height: 100vh;
+  width: 100vw;
+}
