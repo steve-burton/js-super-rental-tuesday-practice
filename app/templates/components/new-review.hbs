@@ -1,0 +1,23 @@
+{{yield}}
+{{#if addNewReview}}
+<h1>New Review</h1>
+  <div>
+    <form>
+      <div class="form-group">
+        <label for="author">Author</label>
+        {{input value=author id="author" class="form-control"}}
+      </div>
+      <div class="form-group">
+        <label for="rating">Rating</label>
+        {{input value=rating id="rating" class="form-control"}}
+      </div>
+      <div class="form-group">
+        <label for="content">Content</label>
+        {{input value=content id="content" class="form-control"}}
+      </div>
+      <button class="btn btn-info" {{action 'saveReview'}}>Save</button>
+    </form>
+  </div>
+{{else}}
+  <button class="btn btn-info" {{action 'reviewFormShow'}}>New review</button>
+{{/if}}

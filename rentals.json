@@ -18,8 +18,17 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg"
   }],
 
-   "announcements": [{
-    "string": "50% off all Tuesday night visits."
-    }]
+  "reviews": [{
+    "author": "Andrea",
+    "rating": 4,
+    "content": "Did not fall down."
+  }, {
+    "author": "Alex",
+    "rating": 9,
+    "content": "Nice view of the volcano!"
+  }],
 
+  "announcements": [{
+    "string": "50% off all Tuesday night visits."
+  }]
 }
