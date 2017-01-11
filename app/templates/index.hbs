@@ -10,14 +10,13 @@
 
 {{new-rental saveRental2="saveRental3"}}
 
-<h2>All Reviews</h2>
+<h3>All Reviews</h3>
 <ul>
   {{#each model.reviews as |review|}}
     <li>{{review.rating}} - {{review.content}} - by {{review.author}}</li>
   {{/each}}
 </ul>
 
-{{new-review saveReview="saveReview"}}
 
 <hr>
 

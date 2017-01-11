@@ -19,5 +19,6 @@
     </form>
   </div>
 {{else}}
-  <button class="btn btn-info" {{action 'reviewFormShow'}}>New review</button>
+  <br><button class="btn btn-info" {{action 'reviewFormShow'}}>New review</button><br><br>
+  {{#link-to 'index'}} Return home {{/link-to}}
 {{/if}}
